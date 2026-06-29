@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankitha // Portfolio Hub</title>
+    <style>
+        :root {
+            --bg-dark: #0a0a0c;
+            --bg-card: #141417;
+            --accent-amber: #f59e0b;
+            --text-white: #f3f4f6;
+            --text-dim: #9ca3af;
+            --border-line: #262626;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-white);
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 1.5rem;
+        }
+
+        .hub-container {
+            max-width: 480px;
+            width: 100%;
+            padding: 2.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-line);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        h1 span {
+            color: var(--accent-amber);
+        }
+
+        .subtitle {
+            color: var(--accent-amber);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .intro-content {
+            color: var(--text-dim);
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            text-align: left;
+            border-left: 3px solid var(--border-line);
+            padding-left: 1rem;
+        }
+
+        .nav-link {
+            display: block;
+            background: var(--bg-dark);
+            color: var(--text-white);
+            text-decoration: none;
+            padding: 1rem;
+            border: 1px solid var(--border-line);
+            border-radius: 6px;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.2s ease;
+        }
+
+        .nav-link:hover {
+            border-color: var(--accent-amber);
+            color: var(--accent-amber);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hub-container">
+        <div class="profile-header">
+            <h1>Ankitha<span>.</span></h1>
+            <p class="subtitle">Engineering & Front-End Workspace</p>
+        </div>
+
+        <div class="intro-content">
+            <p>Welcome to my digital profile! I design structured web spaces, refine user interfaces, and document my development journey directly inside clean codebase setups.</p>
+        </div>
+        
+        <!-- Link to the about page -->
+        <a href="about.html" class="nav-link">Discover More About Me →</a>
+    </div>
+
+</body>
+</html>
